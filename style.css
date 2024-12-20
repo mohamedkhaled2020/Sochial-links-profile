@@ -1,0 +1,72 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'cairo';
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--Grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 29%;
+    background-color: var(--Grey-700);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card .logo img{
+    width: 80px;
+    border-radius: 20%;
+}
+body .text h1{
+    color: var(--White);
+    margin: 10px 0px;
+}
+body .text .css1{
+    color: var(--Green);
+}
+body .text .css2{
+    color: rgb(173, 171, 168);
+    margin: 25px 0px;
+}
+body .link a{
+    display: block;
+    text-decoration: none;
+    color: var(--White);
+    margin: 25px 0px;
+    background-color: rgb(116, 114, 114);
+    padding: 15px;
+    border-radius: 10px;
+
+}
